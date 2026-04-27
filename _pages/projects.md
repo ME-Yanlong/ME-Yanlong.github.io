@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
+description: Research and engineering projects by Yanlong Peng.
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 
@@ -43,6 +43,10 @@ horizontal: false
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
+{% if sorted_projects.size == 0 %}
+  <p>Project summaries will be added here soon.</p>
+{% else %}
+
   <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
@@ -61,5 +65,6 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
+{% endif %}
 {% endif %}
 </div>
