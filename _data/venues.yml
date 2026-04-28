@@ -1,9 +1,26 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"JMS":
+  color: "#005f73"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IROS":
+  color: "#0a9396"
 
-"Vision":
-  color: "#009f36"
+"CASE":
+  color: "#3a6ea5"
+
+"IWAR":
+  color: "#6c757d"
+
+"arXiv":
+  color: "#b31b1b"
+
+"Batteries":
+  color: "#2a9d8f"
+
+"PSEP":
+  color: "#4a4e69"
+
+"ICRAE":
+  color: "#577590"
+
+"ICIRA":
+  color: "#6d597a"

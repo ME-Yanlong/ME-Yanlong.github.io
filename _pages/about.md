@@ -14,7 +14,7 @@ profile:
     <p>No. 800, Dongchuan Road, Shanghai, 200240, China</p>
     <p><a href="mailto:me-pengyanlong@sjtu.edu.cn">me-pengyanlong@sjtu.edu.cn</a></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
